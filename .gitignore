@@ -1,0 +1,6 @@
+.grunt
+_SpecRunner.html
+/.DS_Store
+.DS_Store*
+reports
+node_modules
