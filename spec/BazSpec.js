@@ -1,8 +1,3 @@
-
-require(['app/js/baz.js'], function(){ 
-  require('app/js/baz.js');
-});
-
 describe('baz', function() {
     describe('initialize', function() {
         it('should set name instance variable', function(){

@@ -8,6 +8,7 @@ module.exports = function(grunt) {
         src:['app/js/*.js'],
         options: {
           specs: 'spec/*.js',
+          keepRunner: true,
           junit: { 
             path: 'reports/xml',
             consolidate: true
@@ -31,12 +32,7 @@ module.exports = function(grunt) {
               {
                 type: 'text-summary'
               }
-            ],
-            template: require('grunt-template-jasmine-requirejs'),
-              templateOptions: {
-                requireConfig: {
-                }
-              }
+            ]
           }
         }
       }
